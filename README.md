@@ -1,4 +1,3 @@
-# hangzhiprecision
 # PSM HZP v3.9 — DC Energy Test
 
 Lightweight Python tool to read DC measurements and energy counters from PSM2000-Z devices using the HZP v3.9 protocol, and optionally coordinate a parallel test script. The tool performs grouped AskDat requests per page (V/I/P together, Energy/Ah together) to minimize latency and writes time-stamped snapshots to a semicolon-separated CSV.
